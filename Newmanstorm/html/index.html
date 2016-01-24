@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <title>NewmanStorm</title>
+  </head>
+  <body>
+    <img id="picture" src="NewmanStorm.jpg" alt="Picture of newmanstorms logo">
+    <div id="form">
+      <h1>Login</h1>
+      <form id="subform">
+        <input class="textfield" id="name" name="username" type="text" placeholder="Name" pattern="[A-Za-z0-9]{3,12}" autofocus required></input>
+        <input class="textfield" id="password" name="password" type="password" placeholder="Password" pattern=".{3,}" required></input>
+        <button id="logreg" type="button">Login</button>
+      </form>
+      <a id="formswitch" href="">Register</a>
+      <p id="error"></p>
+    </div>
+    <script src="http://jqueryvalidation.org/files/dist/jquery.validate.min.js"></script>
+    <script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>

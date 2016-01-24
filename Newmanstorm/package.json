@@ -1,0 +1,21 @@
+{
+  "name": "projekt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mongodb": "^2.0.43",
+    "body-parser": "^1.14.1",
+    "cookie-parser": "^1.4.0"
+  },
+  "devDependencies": {
+    "should": "^7.1.0",
+    "superagent": "^1.4.0"
+  }
+}

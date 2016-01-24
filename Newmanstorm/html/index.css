@@ -1,0 +1,34 @@
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url("Newman.jpg");
+}
+
+input {
+    display: block;
+    margin-bottom: 2%;
+    max-width: 350px;
+}
+
+#picture {
+    width: 50%;
+    margin-left: 25%;
+}
+
+#form {
+    border: 1px solid black;
+    background: rgba(250,250,250, 0.9);
+    width: 43.8%;
+    margin-left: 25%;
+    padding: 3%;
+
+}
+
+.textfield {
+    width: 90%;
+}
+
+.error {
+  color: red;
+  display: block;
+}

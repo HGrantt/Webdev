@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="profile.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <title id="title"></title>
+  </head>
+  <body>
+    <div id="panel">
+      <img id="picture" src="NewmanStorm.jpg" alt="Picture of newmanstorms logo">
+      <p id="loggedin">logged in as: <p id="logg">JAG</p></p>
+      <p id="namehead">Your ID</p>
+      <button id="befriend" type="button">FRIEND</button>
+      <form id="friendform">
+        <div class="ui-widget">
+          <input class="textfield" id="namesearch" type="text" pattern="[A-Za-z0-9]{3,12}" placeholder="Friend" required=""></input>
+          <button id="submit" type="button">Go!</button>
+        </div>
+      </form>
+
+    </div>
+    <div id="content">
+      <div id="friends">
+        <h2>Friends: </h2>
+        <ul id="friendlist">
+          <li>Friendless</li>
+        </ul>
+      </div>
+      <div id="board">
+        <form id="msgform">
+          <textarea id="msgboard" name="messageboard" placeholder="Write a message to this user!" maxlength="420" required></textarea>
+          <button id="submitmsg" type="button">Post</button>
+        </form>
+        <p id="msgerror" class="error"></p>
+        <ul id="posts">
+        </ul>
+      </div>
+    </div>
+    <a id="logout" href="">Logout</a>
+
+    <script src="http://jqueryvalidation.org/files/dist/jquery.validate.min.js"></script>
+    <script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
+    <script type="text/javascript" src="profile.js"></script>
+  </body>
+</html>
